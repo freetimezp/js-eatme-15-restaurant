@@ -6,7 +6,7 @@ import Collection from './components/Collection/Collection';
 import Cities from './components/Cities/Cities';
 import CTA from './components/CTA/CTA';
 import AccContainer from './components/AccContainer/AccContainer';
-
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
@@ -17,6 +17,7 @@ function App() {
       <Cities />
       <CTA />
       <AccContainer />
+      <Footer />
     </div>
   );
 }
